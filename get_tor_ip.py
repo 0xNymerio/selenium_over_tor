@@ -59,7 +59,8 @@ def get_ip(action):
     except:
         r_ip = "Erro ao Coletar o IP"
         r_host = "Erro ao Coletar o HOST"
-
+        r_country = "Erro ao Coletar o COUNTRY"
+        
     r_log = action + ': [IP] ' + r_ip + ' [HOST] ' + r_host + ' [COUNTRY] ' + r_country
     driver.close()
 
